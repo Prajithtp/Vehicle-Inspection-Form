@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Inspection Form </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Vehicle Inspection Form</h1>
+        <form id="inspectionForm">
+            <section>
+                <h2>Inspector Information</h2>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="inspectorName">Inspector Name:</label>
+                <input type="text" id="inspectorName" name="inspectorName" required>
+
+                <label for="inspectorId">Inspector ID No.:</label>
+                <input type="text" id="inspectorId" name="inspectorId" required>
+
+                <label for="location">Inspection Location:</label>
+                <input type="text" id="location" name="location" required>
+
+                <label for="companyName">Company Name:</label>
+                <input type="text" id="companyName" name="companyName">
+            </section>
+
+            <section>
+                <h2>Vehicle Information</h2>
+                <label for="vin">VIN:</label>
+                <input type="text" id="vin" name="vin" required>
+
+                <label for="licensePlate">License Plate Number:</label>
+                <input type="text" id="licensePlate" name="licensePlate" required>
+
+                <label for="yearMakeModel">Year, Make, Model:</label>
+                <input type="text" id="yearMakeModel" name="yearMakeModel" required>
+
+                <label for="odometerReading">Odometer Reading:</label>
+                <input type="number" id="odometerReading" name="odometerReading" required>
+
+                <label for="mileage">Vehicle Mileage:</label>
+                <input type="number" id="mileage" name="mileage">
+            </section>
+
+            <section>
+                <h2>General Vehicle Condition</h2>
+                <label for="cleanliness">Cleanliness:</label>
+                <textarea id="cleanliness" name="cleanliness"></textarea>
+
+                <label for="damage">Damage:</label>
+                <textarea id="damage" name="damage"></textarea>
+
+                <label for="leaks">Leaks:</label>
+                <textarea id="leaks" name="leaks"></textarea>
+            </section>
+
+            <section>
+                <h2>Engine Compartment</h2>
+                <label for="fluidLevels">Fluid Levels (Oil, Coolant, Washer Fluid):</label>
+                <textarea id="fluidLevels" name="fluidLevels"></textarea>
+
+                <label for="beltsHoses">Belts and Hoses:</label>
+                <textarea id="beltsHoses" name="beltsHoses"></textarea>
+
+                <label for="battery">Battery Condition:</label>
+                <textarea id="battery" name="battery"></textarea>
+            </section>
+
+            <section>
+                <h2>Brake System</h2>
+                <label for="brakePedal">Brake Pedal:</label>
+                <textarea id="brakePedal" name="brakePedal"></textarea>
+
+                <label for="parkingBrake">Parking Brake:</label>
+                <textarea id="parkingBrake" name="parkingBrake"></textarea>
+
+                <label for="brakeLights">Brake Lights:</label>
+                <textarea id="brakeLights" name="brakeLights"></textarea>
+            </section>
+
+            <section>
+                <h2>Tires and Wheels</h2>
+                <label for="tireCondition">Tire Condition:</label>
+                <textarea id="tireCondition" name="tireCondition"></textarea>
+
+                <label for="tirePressure">Tire Pressure:</label>
+                <textarea id="tirePressure" name="tirePressure"></textarea>
+
+                <label for="lugNuts">Lug Nuts:</label>
+                <textarea id="lugNuts" name="lugNuts"></textarea>
+            </section>
+
+            <section>
+                <h2>Exterior Inspection</h2>
+                <label for="bodyDamage">Body Damage:</label>
+                <textarea id="bodyDamage" name="bodyDamage"></textarea>
+
+                <label for="windshield">Windshield and Windows:</label>
+                <textarea id="windshield" name="windshield"></textarea>
+
+                <label for="mirrors">Mirrors:</label>
+                <textarea id="mirrors" name="mirrors"></textarea>
+
+                <label for="lightsReflectors">Lights and Reflectors:</label>
+                <textarea id="lightsReflectors" name="lightsReflectors"></textarea>
+
+                <label for="horn">Horn Functionality:</label>
+                <textarea id="horn" name="horn"></textarea>
+
+                <label for="wipers">Wipers and Washers:</label>
+                <textarea id="wipers" name="wipers"></textarea>
+            </section>
+
+            <section>
+                <h2>Lights and Reflectors</h2>
+                <label for="headlights">Headlights Condition:</label>
+                <textarea id="headlights" name="headlights"></textarea>
+            </section>
+
+            <button type="submit">Submit Inspection</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
